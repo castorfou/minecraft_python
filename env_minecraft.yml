@@ -1,0 +1,8 @@
+name: minecraft
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - spyder=4
+  - jupyter
+prefix: /home/explore/miniconda3/envs/minecraft
