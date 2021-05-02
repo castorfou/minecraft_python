@@ -191,6 +191,102 @@ creer_maison(10,5,5)
 effacer_maison()
 
 
+# # changing the values of variables
+# 
+# 
+
+# In[3]:
+
+
+cats = 5
+
+
+# In[6]:
+
+
+cats
+
+
+# In[7]:
+
+
+
+cats=10
+
+
+# # integers
+
+# In[8]:
+
+
+name = 'Gabriel'
+
+
+# In[9]:
+
+
+name
+
+
+# In[10]:
+
+
+type(name)
+
+
+# In[11]:
+
+
+nombres= [10,2]
+
+
+# In[12]:
+
+
+nombres
+
+
+# # MISSION #1: TELEPORT THE PLAYER
+
+# In[34]:
+
+
+from mcpi.minecraft import Minecraft
+mc=Minecraft.create()
+
+
+# In[35]:
+
+
+x=10
+y=110
+z=12
+
+
+# In[36]:
+
+
+mc.player.setTilePos(x,y,z)
+
+
+# In[19]:
+
+
+x, y, z
+
+
+# In[20]:
+
+
+mc.player.setTilePos(-256,-63,229)
+
+
+# In[26]:
+
+
+mc.player.setPos(x,y,z)
+
+
 # In[ ]:
 
 
