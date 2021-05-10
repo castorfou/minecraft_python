@@ -105,6 +105,53 @@ print("Gabriel est le roi du python")
 
 # # mission #3 : Teleportation Tour
 
+# In[1]:
+
+
+from mcpi.minecraft import Minecraft
+mc = Minecraft.create()
+
+
+# In[9]:
+
+
+import time
+
+x = 4
+y = 63
+z = -92
+
+
+mc.player.setTilePos(x,y,z)
+
+time.sleep(2)
+
+x = 10.98
+y = 63
+z = -92
+
+
+mc.player.setPos(x,y,z)
+
+time.sleep(2)
+
+x = 205.32
+y = 63
+z = -92
+
+
+mc.player.setPos(x,y,z)
+
+
+# In[10]:
+
+
+y = 63
+z = -92
+
+mc.player.setTilePos(y,z)
+
+
 # In[ ]:
 
 
